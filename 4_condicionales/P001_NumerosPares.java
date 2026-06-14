@@ -23,6 +23,36 @@ condicional para imprimir los numeros que / 2 su resto sea 0
 
 /* 8 % 2 */
 
+
+import java.util.Scanner;
+
 public class P001_NumerosPares {
+
+    public static void main(String[] args){
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("===================================");
+        System.out.println("           NÚMEROS PARES           ");
+        System.out.println("===================================");
+        System.out.println("Introduce un número entero: ");
+
+        int numeroIntroducido = input.nextInt();
+
+        System.out.println("Los números pares que hay hasta el " + numeroIntroducido + " son:");
+
+        input.close();
+
+        for ( int i = 1; i <= numeroIntroducido; i++){
+
+            if ( i % 2 == 0) {
+
+                System.out.println(i);
+                
+            } 
+        }
+
+        
+
+    }
     
 }
