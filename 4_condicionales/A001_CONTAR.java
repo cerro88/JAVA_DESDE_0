@@ -12,6 +12,8 @@ public class A001_CONTAR {
         System.out.println("Introduce un número entero: ");
 
         int numeroIntroducido = input.nextInt();
+
+        input.close();
         System.out.println("------------------------------------");
         int contador = 0;
 
