@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class B000_SUMAR{
+public class B002_SUMAR{
 
     public static void main(String[] args) {
         
@@ -8,7 +8,7 @@ public class B000_SUMAR{
         Scanner input = new Scanner(System.in);
 
         System.out.println("===================================");
-        System.out.println("    SUMAR NÚMEROS PARES      ");
+        System.out.println("    SUMAR MULTIPLOS DE 3 Y 5       ");
         System.out.println("===================================");
         System.out.println("Introduce un número entero: ");
 
@@ -21,7 +21,7 @@ public class B000_SUMAR{
 
         for ( int i = 1; i <= numeroIntroducido; i++){
 
-            if (i % 2 == 0){
+            if (i % 3 == 0 && i % 5 == 0){
                 System.out.println(i);
                 suma = suma + i;
             }
