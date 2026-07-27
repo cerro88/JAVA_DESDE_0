@@ -7,10 +7,7 @@ public class A000_CONTAR {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("===================================");
-        System.out.println("    CONTADOR DE NÚMEROS IMPARES     ");
-        System.out.println("===================================");
-        System.out.println("Introduce un número entero: ");
+        
 
         int numeroIntroducido = input.nextInt();
         input.close();
