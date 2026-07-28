@@ -21,9 +21,12 @@ public class P002_mientrasNoSea10 {
 
 
     }
+    input.close();
 
-        System.out.println("¡Correcto!");
+    System.out.println("¡Correcto!");
 
    }
+
+   
 
 }
